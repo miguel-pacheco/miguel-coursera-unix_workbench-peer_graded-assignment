@@ -1,6 +1,6 @@
 all: README.md
 README.md: guessinggame.sh
-	echo "#Peer-graded Assignment: Bash, Make, Git, and GitHub#" > README.md
+	echo "# Peer-graded Assignment: Bash, Make, Git, and GitHub" > README.md
 	echo "" >> README.md
 	echo "**make** was run on:" >> README.md
 	date -R >> README.md
